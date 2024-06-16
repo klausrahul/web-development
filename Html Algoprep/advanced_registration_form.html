@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <label for="commets">Comments</label>
+        <textarea name="comments" id="comments" rows="10" cols="10" placeholder="Enter Your comments" required></textarea>
+        <br>
+        <br>
+
+        <input type="radio" name="subscription" id="basic" value="basic" checked>
+        <label for="basic">Basic</label>
+
+        <input type="radio" name="subscription" id="premium" value="premium">
+        <label for="premium">Premium</label>
+
+        <br>
+        <br>
+        <fieldset>
+            <legend>Select Country</legend>
+            <label for="country">Country</label>
+            <select name="country" id="country" required>
+                <option value="india" selected>India</option>
+                <option value="usa">USA</option>
+                <option value="pak">Pakistan</option>
+            </select>
+        </fieldset>
+       
+
+        <br>
+        <br>
+        <label for="range">Range</label>
+        <input type="range" name="range" id="range" min="0" max="100" step="10" value="20" required>
+        <input type="submit">
+        <input type="reset">
+
+
+    </form>
+</body>
+</html>
